@@ -1,0 +1,10 @@
+#grad{
+    height: 200px;
+    /*background-color: red;
+    background-image: linear-gradient( to top, red, yellow, green); /*tadaroj*/
+    /*background-image: linear-gradient( to left,rgba(255,0,0,0), rgba(255,0,0,1));*/
+    /*background-image: radial-gradient(rgba(255,0,0,0) , rgba(255,0,0,1) 80%);*/
+    /*background-image: radial-gradient(red 15%, yellow 20%, green 80% );*/
+    /*background-image: repeating-radial-gradient(red , yellow 10%, green 15% );*/
+    background-image: repeating-linear-gradient(red , yellow 10%, green 15% );
+}

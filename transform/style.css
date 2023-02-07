@@ -1,0 +1,13 @@
+div {
+    width: 100px;
+    height: 100px;
+    background-color:red ;
+    transition: width 2s, height 4s, transform 2s;
+    transition-delay: 1s; /*ta2khir transition */
+}
+
+div:hover{
+    width: 300px;
+    height:  300px;
+    transform: rotate(180deg);
+}
