@@ -1,0 +1,29 @@
+.box{
+    height: 100px;
+    width: 100px;
+    background-color: blue;
+    color: white;
+   /* transition-property: all;
+    transition-duration: 0.3s;*/
+    /*transition-timing-function: ease-in-out;*/
+    /*site : https://cubic-bezier.com/#.71,1.04,.83,.67*/
+   /* transition-timing-function: cubic-bezier(.63, 1.44, .01, -0.03);
+    transition-delay: 2s;*/
+
+    /*transition: all 0.3s 2s cubic-bezier(.63, 1.44, .01, -0.03);*/
+    transition: height 3s, width 5s 1s;
+
+}
+.box:hover{
+    cursor: pointer;
+    height: 500px;
+    width: 500px;
+}
+
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}

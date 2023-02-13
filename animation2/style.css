@@ -1,0 +1,35 @@
+div {
+    width: 200px;
+    height: 100px;
+    background-color: blue;
+    /*
+    animation-name: changeColor;
+    animation-duration: 9s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;*/
+
+    /*ou bien */
+    animation: changeColor 2s ease-in-out infinite;
+    /*pour specifier la direction*/
+    position: relative;
+    
+}
+
+/*@Keyframes animationName {keyframes-selectors {style css}}*/
+@keyframes changeColor {
+    /*pour changer le couleur*/
+    /* 0% {background-color: #00f}
+    25%{background-color: #080}
+    50%{background-color: #ddd}
+    100% {background-color: #f00}*/
+
+
+    /*pour mouvement */
+    0% {
+        left: 0
+    }
+
+    100% {
+        left: 100px
+    }
+}
